@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home1/rntenpcr/repositories/rnt-technology/
+    - /bin/cp -R images $DEPLOYPATH
